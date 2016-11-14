@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "lotusaparna",
+  "private_key_id": "a52ca1720fe719ae94ec504fde4838306c0a58c1",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQD+fBz4DgbYYUiQ\nysl50X7L1Nvtwdu2m4DyniSLuij69i+j2vGzh4lurqNX08sMgL/L/uXuR7NpUfbh\nO/bZnE4rnakJh+nIyiPZOh0dRjcw/kt/cBg6jUKir9aBaewcz9ODsy5ulLAIJNvP\nw/+XVKMIdNvQnW8LxfVPh2Kk7LL5O/CV1n7RCc/ZSrxlHoIYMBULwU477Ufv39CG\n2eoUMLnw17CMKigCo1hqHACREGQF1MD0zKMklJd438gd/7lp/hWFDv2EhtEgfWov\nOmFaBnwd0sXa9Db4QKPo/ouRZVYB7Lc/JVg+AuI5qBCINkfoPj7oxq1SsBIRBWxX\nDpnAOX9xAgMBAAECggEBAMp2m+WN40xLOZxYeap9Tc+E7eRekxrY5OIhhxnTZb8k\nFgraqekXL/Pq5PF/AtBTrkPx66SDTu2/1BalymKexGJW8KEwjIK+r36niXo83rQP\n3Kjq2ZvbvuQH2TTkvIC/p5vj9lDr4pDYIjlNyg7vuzWDI075sdtAB0bag1SLLGiz\n/TWF/XUfQgL5dki6SCrYJfOKA11bUhLhnF5YHdslQQWmxIfjJ/MiGSVMRypYe0ro\nHxSZyonbSAHaDQItnUkmKDu7v2FTZRKGAR+tdtE18vTYn3n7itrJmTp6WptJifUY\nxoa1zacweMmj6xSXl8haDS/o+Zm+m/Hy4K8Pz0fPaUECgYEA/1NNh5UcaqwGEyvT\nNTGQ/GUx2B3A433fXFhY9tcwclF5TJRLVQorMD9lNELlgoB2mQsb8t6lF4I99os2\nONsfBsPoWCDh8+pJ7ZGk3yI1VQOy9m/CQaOLDjJKX9EAyUSHAaZrq0rkGcVoC/78\nuZLA0qi9UWbE+xzD16z5OHKT8GUCgYEA/yg946Nna1UokgnctNPEHNrhSN8oLDTx\nv2GaZuD+phz7yjK2MOAHIW75RngoiSqJzfr39tvpt3qAM5e5Lze22VNx97ZkFNxG\n1VaYKtlE3hGkX/PAwKWA83jSbhDa1Pr5H/JWodQyhVDvVdxEUQof2mDh+X641/zE\nDVvbc7AL9B0CgYA1ItoEuHSEgq50+O7oqBsbW9gGuRJ2hbChYEWLgXc0o14SIN6Y\noRgh31+pg66N/TwxV42Geu1yugk5MPmk1X1chBLrnFRJ1d1y0pe0VEMzISTygomz\n7Vw4JSEzVaTLPja2kjLgICLediXUMUnZOQBmFvXnZfLiq7baQMZRCA9fvQKBgQCo\n9Himt5jPlcAbk7Q1eNQvVzA+FKaBPz2kwHiBDxMP47lGlnXVv0J5fQZLB12wFh7R\n6hEvwUbtW4xwnVLeVUIafgrFQFzdA09UDNcN6HiVo5D4iGtmJTFSBvswLrD4vocg\nBFQhLGWXqZQRgp0qHE4jSGvZzXOQcatQPTb/T99acQKBgQCWgyPy2FDioZgefumm\nviKIxoufHcIFX8PUIl6QnEWXrXe2gma9Wd/vN+TKi37Ne9YRXbUV4FKVPF5G5l9h\nRW9dUMvKfKYGzZVmf+5icCC+ahiz/ZSwEZypLq3YwowwM/PnaVqodjGoPWfdecDH\nSIPTZKxSqtc2ZM0WlGoSRsTzoQ==\n-----END PRIVATE KEY-----\n",
+  "client_email": "pi-weather@lotusaparna.iam.gserviceaccount.com",
+  "client_id": "110173805605629944291",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/pi-weather%40lotusaparna.iam.gserviceaccount.com"
+}
