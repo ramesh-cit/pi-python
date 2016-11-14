@@ -16,5 +16,6 @@ while True:
         bg = [100, 0, 0]  # red
 
     msg = "Temperature = {0}, Pressure = {1}, Humidity - {2}".format(t, p, h)
-
+    print(msg)
     sense.show_message(msg, scroll_speed=0.20, back_colour=bg)
+    
