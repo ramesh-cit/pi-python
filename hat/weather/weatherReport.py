@@ -10,14 +10,14 @@ import sys
 import urllib2
 import json
 import gspread
-from oauth2client.client import SignedJwtAssertionCredentials
+from oauth2client.service_account import ServiceAccountCredentials
 from sense_hat import SenseHat
 
 # Oauth JSON File
-GDOCS_OAUTH_JSON       = 'Mini Weather Station-f68343d4a35a.json'
+GDOCS_OAUTH_JSON       = 'lotusaparna-a52ca1720fe7.json'
 
 # Google Docs spreadsheet name.
-GDOCS_SPREADSHEET_NAME = 'Sense HAT Logs'
+GDOCS_SPREADSHEET_NAME = 'Tallulah Weather Report'
 
 # How long to wait (in seconds) between measurements.
 FREQUENCY_SECONDS      = 30
@@ -26,10 +26,10 @@ FREQUENCY_SECONDS      = 30
 def login_open_sheet(oauth_key_file, spreadsheet):
 	"""Connect to Google Docs spreadsheet and return the first worksheet."""
 	try:
+                scope = ['https://spreadsheets.google.com/feeds']
 		json_key = json.load(open(oauth_key_file))
-		credentials = SignedJwtAssertionCredentials(json_key['client_email'],
-													json_key['private_key'],
-													['https://spreadsheets.google.com/feeds'])
+                credentials = ServiceAccountCredentials.from_json_keyfile_name(GDOCS_OAUTH_JSON, scope)
+	 #	credentials = SignedJwtAssertionCredentials(json_key['client_email'], json_key['private_key'],['https://spreadsheets.google.com/feeds'])
 		gc = gspread.authorize(credentials)
 		worksheet = gc.open(spreadsheet).sheet1
 		return worksheet
@@ -37,7 +37,6 @@ def login_open_sheet(oauth_key_file, spreadsheet):
 		print 'Unable to login and get spreadsheet.  Check OAuth credentials, spreadsheet name, and make sure spreadsheet is shared to the client_email address in the OAuth .json file!'
 		print 'Google sheet login failed with error:', ex
 		sys.exit(1)
-
 
 sense = SenseHat()
 sense.clear()		
